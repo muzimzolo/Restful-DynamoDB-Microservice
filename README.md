@@ -7,15 +7,14 @@ An ecommerce store is migrating its on-premesis resources to AWS. The store need
 ## Steps and best practices
 
 1. Create a Lambda function
+ 
+- Create a lambda function to handle records to be processed in DynamoDB
 
-   
-Create a lambda function to handle records to be processed in DynamoDB
+- Give the lambda function the LambdaMicroserviceExecutionRole this will grant the lambda function permission to interact with DynamoDB
 
-Give the lambda function the LambdaMicroserviceExecutionRole this will grant the lambda function permission to interact with DynamoDB
+- Best practice: store the primary key and DynamoDB table name in environment variables
 
-Best practice: store the primary key and DynamoDB table name in environment variables
-
-The lambda code can be found in the develop branch
+- The lambda code can be found in the develop branch
 
 2. Create an API Gateway
 
