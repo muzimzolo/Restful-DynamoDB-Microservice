@@ -30,4 +30,8 @@ This step involves creating a REST API in API Gateway to perform CRUD operations
   
 - Add methods to product/{id}: GET, PUT and DELETE
 
+- Deploy the API -> select/create a stage -> give the stage a name -> deploy -> under stage you will have the API's invocation url to interact with the API
+
+- You can interact with the url on Postman. See sample-payload for POST request 
+3. 
 
