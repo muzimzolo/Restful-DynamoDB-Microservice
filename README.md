@@ -33,5 +33,8 @@ This step involves creating a REST API in API Gateway to perform CRUD operations
 - Deploy the API -> select/create a stage -> give the stage a name -> deploy -> under stage you will have the API's invocation url to interact with the API
 
 - You can interact with the url on Postman. See sample-payload for POST request 
+- Create a package.json file by running 'npm init -y'. This file holds various metadata about the project, such as its name, version, dependencies, scripts, and other configurations
+- Add "type": "module" to the package.json file to indicate that the project is using ECMAScript modules (ES modules) syntax instead of the CommonJS syntax by default.
+
 3. 
 

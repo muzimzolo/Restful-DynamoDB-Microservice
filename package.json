@@ -11,10 +11,13 @@
     "url": "git+https://github.com/muzimzolo/Restful-DynamoDB-Microservice.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Muzi Mzolo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/muzimzolo/Restful-DynamoDB-Microservice/issues"
   },
-  "homepage": "https://github.com/muzimzolo/Restful-DynamoDB-Microservice#readme"
+  "homepage": "https://github.com/muzimzolo/Restful-DynamoDB-Microservice#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.515.0"
+  }
 }
