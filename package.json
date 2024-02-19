@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "In this repository, I created a microservices deployed on AWS Cloud. It's an ecommerce application that adds products into DynamoDB which makes use of API Gateway for CRUD operations, Lambda to invoke DynamoDB and DynamoDB to store and retrieve data",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/muzimzolo/Restful-DynamoDB-Microservice/issues"
   },
-  "homepage": "https://github.com/muzimzolo/Restful-DynamoDB-Microservice#readme",
-  "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.515.0"
-  }
+  "homepage": "https://github.com/muzimzolo/Restful-DynamoDB-Microservice#readme"
 }
