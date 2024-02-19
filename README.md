@@ -18,6 +18,8 @@ An ecommerce store is migrating its on-premesis resources to AWS. The store need
 
 -  Install the DynamoDB util package. This package provides utilities to be used with @aws-sdk/client-dynamodb. Install this package by running 'npm install @aws-sdk/util-dynamodb'
 
+- Create a DynamoDB client class. This class uses SDK to create any dynamic DB client object to interact with DynamoDB API and specifying the region information
+
 - Best practice: store the primary key and DynamoDB table name in environment variables
 
 - The lambda code can be found in the develop branch
